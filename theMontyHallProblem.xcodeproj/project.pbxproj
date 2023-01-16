@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73AEF3C291A2FEB00A1A8BB /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73AEF3B291A2FEB00A1A8BB /* GameButton.swift */; };
+		A73AEF3E291A697E00A1A8BB /* StatLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73AEF3D291A697E00A1A8BB /* StatLabel.swift */; };
+		A783A00E2934861F0073EE3A /* SimulationStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783A00D2934861F0073EE3A /* SimulationStatsViewController.swift */; };
+		A7A1061D290E976E0055AD46 /* DoorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1061C290E976E0055AD46 /* DoorButton.swift */; };
 		A7BD112629058EAA00FB2F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD112529058EAA00FB2F23 /* AppDelegate.swift */; };
 		A7BD112829058EAA00FB2F23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD112729058EAA00FB2F23 /* SceneDelegate.swift */; };
-		A7BD112A29058EAA00FB2F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD112929058EAA00FB2F23 /* ViewController.swift */; };
-		A7BD112D29058EAA00FB2F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD112B29058EAA00FB2F23 /* Main.storyboard */; };
 		A7BD113029058EAA00FB2F23 /* theMontyHallProblem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7BD112E29058EAA00FB2F23 /* theMontyHallProblem.xcdatamodeld */; };
 		A7BD113229058EB000FB2F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD113129058EB000FB2F23 /* Assets.xcassets */; };
 		A7BD113529058EB000FB2F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD113329058EB000FB2F23 /* LaunchScreen.storyboard */; };
+		A7BD113F2907EE6700FB2F23 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD113E2907EE6700FB2F23 /* TabBarController.swift */; };
+		A7BD11412908F7E700FB2F23 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD11402908F7E600FB2F23 /* StatsVC.swift */; };
+		A7E90E2C29239119003A4A00 /* SimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E90E2B29239119003A4A00 /* SimulationViewController.swift */; };
+		A7FF1F08290DC1AD002EBDF9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF1F07290DC1AD002EBDF9 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73AEF3B291A2FEB00A1A8BB /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		A73AEF3D291A697E00A1A8BB /* StatLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatLabel.swift; sourceTree = "<group>"; };
+		A783A00D2934861F0073EE3A /* SimulationStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationStatsViewController.swift; sourceTree = "<group>"; };
+		A7A1061C290E976E0055AD46 /* DoorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorButton.swift; sourceTree = "<group>"; };
 		A7BD112229058EAA00FB2F23 /* theMontyHallProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theMontyHallProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD112529058EAA00FB2F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BD112729058EAA00FB2F23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7BD112929058EAA00FB2F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A7BD112C29058EAA00FB2F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BD112F29058EAA00FB2F23 /* theMontyHallProblem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = theMontyHallProblem.xcdatamodel; sourceTree = "<group>"; };
 		A7BD113129058EB000FB2F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BD113429058EB000FB2F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7BD113629058EB000FB2F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BD113E2907EE6700FB2F23 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A7BD11402908F7E600FB2F23 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
+		A7E90E2B29239119003A4A00 /* SimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationViewController.swift; sourceTree = "<group>"; };
+		A7FF1F07290DC1AD002EBDF9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,16 @@
 		A7BD112429058EAA00FB2F23 /* theMontyHallProblem */ = {
 			isa = PBXGroup;
 			children = (
+				A7BD113E2907EE6700FB2F23 /* TabBarController.swift */,
 				A7BD112529058EAA00FB2F23 /* AppDelegate.swift */,
 				A7BD112729058EAA00FB2F23 /* SceneDelegate.swift */,
-				A7BD112929058EAA00FB2F23 /* ViewController.swift */,
-				A7BD112B29058EAA00FB2F23 /* Main.storyboard */,
+				A7BD11402908F7E600FB2F23 /* StatsVC.swift */,
+				A7FF1F07290DC1AD002EBDF9 /* GameViewController.swift */,
+				A7A1061C290E976E0055AD46 /* DoorButton.swift */,
+				A783A00D2934861F0073EE3A /* SimulationStatsViewController.swift */,
+				A7E90E2B29239119003A4A00 /* SimulationViewController.swift */,
+				A73AEF3D291A697E00A1A8BB /* StatLabel.swift */,
+				A73AEF3B291A2FEB00A1A8BB /* GameButton.swift */,
 				A7BD113129058EB000FB2F23 /* Assets.xcassets */,
 				A7BD113329058EB000FB2F23 /* LaunchScreen.storyboard */,
 				A7BD113629058EB000FB2F23 /* Info.plist */,
@@ -130,7 +148,6 @@
 			files = (
 				A7BD113529058EB000FB2F23 /* LaunchScreen.storyboard in Resources */,
 				A7BD113229058EB000FB2F23 /* Assets.xcassets in Resources */,
-				A7BD112D29058EAA00FB2F23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +158,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A1061D290E976E0055AD46 /* DoorButton.swift in Sources */,
+				A73AEF3C291A2FEB00A1A8BB /* GameButton.swift in Sources */,
 				A7BD113029058EAA00FB2F23 /* theMontyHallProblem.xcdatamodeld in Sources */,
-				A7BD112A29058EAA00FB2F23 /* ViewController.swift in Sources */,
+				A7E90E2C29239119003A4A00 /* SimulationViewController.swift in Sources */,
 				A7BD112629058EAA00FB2F23 /* AppDelegate.swift in Sources */,
+				A73AEF3E291A697E00A1A8BB /* StatLabel.swift in Sources */,
+				A7BD113F2907EE6700FB2F23 /* TabBarController.swift in Sources */,
+				A7FF1F08290DC1AD002EBDF9 /* GameViewController.swift in Sources */,
+				A7BD11412908F7E700FB2F23 /* StatsVC.swift in Sources */,
 				A7BD112829058EAA00FB2F23 /* SceneDelegate.swift in Sources */,
+				A783A00E2934861F0073EE3A /* SimulationStatsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7BD112B29058EAA00FB2F23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7BD112C29058EAA00FB2F23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7BD113329058EB000FB2F23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +314,6 @@
 				INFOPLIST_FILE = theMontyHallProblem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +341,6 @@
 				INFOPLIST_FILE = theMontyHallProblem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
